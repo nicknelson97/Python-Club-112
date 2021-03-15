@@ -7,7 +7,7 @@ class MeetingTest(TestCase):
     def setUp(self):
         self.type=Meeting(mtitle='meeting')
         
-
+ 
     def test_typestring(self):
         self.assertEqual(str(self.type), 'meeting')
     
